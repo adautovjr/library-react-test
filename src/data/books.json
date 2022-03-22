@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cd50c2e4-a8c1-11ec-b909-0242ac120002",
+    "name": "Prince of thorns",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81MmE+V-PgL.jpg",
+    "loaned": false
+  },
+  {
+    "id": "d0ad16f4-a8c1-11ec-b909-0242ac120002",
+    "name": "King of thorns",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81dCLu23EPL.jpg",
+    "loaned": false
+  },
+  {
+    "id": "c413c90a-a8c2-11ec-b909-0242ac120002",
+    "name": "Emperor of thorns",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81U7mzIp0SL.jpg",
+    "loaned": false
+  },
+  {
+    "id": "557d3742-a8c2-11ec-b909-0242ac120002",
+    "name": "O nome do vento",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/91Tb8yIdRML.jpg",
+    "loaned": false
+  },
+  {
+    "id": "7fe9e4e4-a8c2-11ec-b909-0242ac120002",
+    "name": "A Lenda de Ruff Ghanor",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/510HhUtzd2L._SX342_SY445_QL70_ML2_.jpg",
+    "loaned": false
+  },
+  {
+    "id": "bb63fb54-a8c2-11ec-b909-0242ac120002",
+    "name": "The call of Cthulhu",
+    "image": "https://m.media-amazon.com/images/I/51Zcd0HTiEL.jpg",
+    "loaned": false
+  }
+]

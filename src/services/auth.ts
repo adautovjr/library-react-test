@@ -1,11 +1,8 @@
 import { v4 as uuid } from 'uuid'
 
-interface signInRequestData {
-  email: string
-  password: string
-}
+import { SignInRequestData } from '../data/types'
 
-export const signInRequest = (data: signInRequestData) => {
+export const signInRequest = (data: SignInRequestData) => {
   return {
     token: uuid(),
     user: {

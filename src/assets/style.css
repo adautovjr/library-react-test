@@ -1,0 +1,29 @@
+input {
+  padding: 10px;
+  background-color: #efefef;
+}
+
+.search-icon-container {
+  padding: 5px;
+}
+
+.search-icon-container:hover {
+  cursor: pointer;
+}
+
+.ribbon {
+  background: #1f2937;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 10px;
+}
+
+.menu-options {
+  z-index: 999;
+}
+
+.menu-options a {
+  user-select: none;
+}

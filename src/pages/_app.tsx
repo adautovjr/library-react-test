@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import 'tailwindcss/tailwind.css'
 import { AuthProvider } from '../contexts/AuthContext'
+import '../assets/style.css'
 
 const MyApp = ({ Component, pageProps }) => {
   return (

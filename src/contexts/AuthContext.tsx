@@ -3,26 +3,12 @@ import { setCookie, parseCookies } from 'nookies'
 import Router from 'next/router'
 
 import { signInRequest, getUserInfo } from '../services/auth'
-
-export const AUTH_TOKEN_NAME = '@Library:token'
-
-interface User {
-  name: string
-  email: string
-  avatar: string
-}
-
-interface SignInInput {
-  email: string
-  password: string
-}
-
-interface AuthContextType {
-  isAuth: boolean
-  user: User
-  signIn: (input: SignInInput) => Promise<void>
-  AUTH_TOKEN_NAME
-}
+import {
+  AUTH_TOKEN_NAME,
+  User,
+  SignInInput,
+  AuthContextType
+} from '../data/types'
 
 export const AuthContext = createContext({} as AuthContextType)
 
@@ -35,7 +21,7 @@ export const AuthProvider = ({ children }) => {
     const { [AUTH_TOKEN_NAME]: token } = parseCookies()
 
     if (!token) {
-      Router.push('/')
+      Router.push('/login')
     }
 
     getUserInfo().then(({ user }) => setUser(user))
@@ -50,7 +36,7 @@ export const AuthProvider = ({ children }) => {
 
     setUser(user)
 
-    Router.push('/books')
+    Router.push('/')
   }
 
   return (
